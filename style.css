@@ -1,0 +1,180 @@
+
+
+/* 
+TITULOS
+font-family: 'Playfair Display', serif;
+PARRAFOS
+font-family: 'Raleway', sans-serif; 
+*/
+
+
+
+@media screen and (min-width:320px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;   
+    }
+    
+    .top{
+        width: 100vw;
+    }
+    
+    p{
+        font-size: 1rem;
+        font-family: 'Raleway', sans-serif;
+        color: #35231B;
+        text-align: justify;
+    }
+    
+    h1, h2, h3, h4{
+        font-size: 2rem;
+        font-family: 'Playfair Display', serif;
+        color: #35231B;
+        text-align: center;
+    }
+    
+    .logo{
+        width: 100%;
+        background-image:url(./img/cafegrano.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .logo img{
+        width: 60%;
+        background: none;
+    }
+    
+    .menu{
+        width: 100%;
+        background-color: #77ACF2;
+    }
+    
+    .menu ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .menu a{
+        color: #fff;
+        font-size: 1rem;
+        background-color: #F2D22E;
+        padding: 0.25rem;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        border-radius: 10px;
+    }
+
+    main{
+        background-color: rgb(224, 217, 208);
+    }
+
+    .subir{
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: +2;
+    }
+    
+    .subir img{
+        width: 18vw;
+    }
+    
+    .nosotros{
+        width: 100vw;
+        margin-top: -21px;
+    }
+
+    .nosotros h1{
+        text-align: center;
+        padding: 1rem;
+    }
+
+
+
+
+    .inauguración{
+        width: 100vw;
+        height: 80vh;
+        background-image: url(./img/panad.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .inauguración h3{
+        font-size: 1rem;
+    }
+
+    .botonderes{
+        width: 40%;
+        height: 10rem;
+        background-color:#F5F4C8 ;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+    }
+    
+    .ibotonderes button{
+        background-color: #F2D22E;
+        color: #F5F4C8;
+        padding: 9px 25px;
+        border: none;
+        border-radius: 30px; 
+        cursor: pointer;
+    }
+
+    footer{
+        background-color: #F5F4C8;;
+        width: 100%;
+    }
+    
+    footer p{
+        text-align: center;
+        margin-top: 15px;
+        padding-bottom: 30px;
+        color: #77ACF2;
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        padding-top: 20px;   
+    }
+    
+    .fa-brands{
+        color: #77ACF2;
+        font-size: 1rem;
+        
+    }
+    
+    footer .copy{
+        text-shadow: none;
+        align-self: center;    
+    }
+}  
+    
+   
+
