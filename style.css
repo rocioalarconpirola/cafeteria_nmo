@@ -382,7 +382,7 @@ font-family: 'Raleway', sans-serif;
     }
 
     .te, .caf, .past{
-        width: 40%;
+        width: 41%;
     }
 
     .muestra h4, .coffe h4, .pasteleria h4{
@@ -453,7 +453,6 @@ font-family: 'Raleway', sans-serif;
         order: 6;
     }
 
-    
     .ochooo{
         order:5 ;
     }
@@ -461,8 +460,6 @@ font-family: 'Raleway', sans-serif;
     .botonderes{
         width: 60%;
         height: 50%;
-        
-
     }
 }
 
