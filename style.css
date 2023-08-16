@@ -24,14 +24,14 @@ font-family: 'Raleway', sans-serif;
     }
     
     p{
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: 'Raleway', sans-serif;
         color: #35231B;
         text-align: justify;
     }
     
     h1, h2, h3, h4{
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-family: 'Playfair Display', serif;
         color: #35231B;
         text-align: center;
@@ -64,7 +64,7 @@ font-family: 'Raleway', sans-serif;
         justify-content: center;
         align-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 1.5rem;
         padding: 1rem;
     }
 
@@ -72,7 +72,7 @@ font-family: 'Raleway', sans-serif;
         color: #fff;
         font-size: 1rem;
         background-color: #F2D22E;
-        padding: 0.25rem;
+        padding: 0.5rem;
         text-align: center;
         font-family: 'Playfair Display', serif;
         border-radius: 10px;
@@ -93,22 +93,123 @@ font-family: 'Raleway', sans-serif;
         width: 18vw;
     }
     
-    .nosotros{
+    .nosotros1{
         width: 100vw;
-        margin-top: -21px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .nosotros h1{
+    .nosotros1 h1{
         text-align: center;
         padding: 1rem;
     }
 
+    .nosotros1 p{
+        text-align: justify;
+        padding: 1rem;
+        margin: 0.4rem;
+    }
+
+    .nosotros1 iframe{
+        width: 90vw;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .fotolugar{
+        width: 100vw;
+        height: 90vh;
+        background-image: url(./img/lugar.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .muestra, .coffe, .pasteleria{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .textos{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        margin-top: 1rem;
+        
+    }
+
+    .muestra h4, .coffe h4, .pasteleria h4{
+        text-align: center;
+        margin-top: 2rem;
+    
+    }
+
+    .muestra h3, .coffe h3, .pasteleria h3{
+        text-align: center;
+        padding: 2rem;
+       
+    }
+
+    .muestra p, .coffe p, .pasteleria p{
+        text-align: center;
+        padding:  0 1rem  ;
+    }
+
+    .te, .caf, .past{
+        width: 80%;
+        background-color:#77acf285; 
+        border-radius: 15px;
+        box-shadow: 10px 16px 10px rgba(0, 0, 0, 0.112);      
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        
+    }
+
+    .caf{
+        background-color: #f2d12e7b;
+    }
 
 
+    .te h4, .caf h4, .past h4{
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .te p, .caf p{
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .te img{
+        width: 80%;
+        border-radius: 15px;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+    
+    .caf img{
+        width: 98%;
+        margin: 0 auto;
+        padding-bottom: 2px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+   
+    .pasteleria{
+        margin-bottom: 3rem;
+    }
 
     .inauguración{
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
         background-image: url(./img/panad.jpg);
         background-size: cover;
         background-position: center;
@@ -119,14 +220,12 @@ font-family: 'Raleway', sans-serif;
         align-items: center;
     }
     
-    .inauguración h3{
-        font-size: 1rem;
-    }
-
     .botonderes{
-        width: 40%;
-        height: 10rem;
-        background-color:#F5F4C8 ;
+        width: 70%;
+        height: 65%;
+        background: rgba(255, 255, 255, 0.549);
+        box-shadow: 0 2px 25px rgba(0, 0, 0, 0.129);
+        backdrop-filter: blur(6.6px);
         border-radius: 10px;
         display: flex;
         flex-direction: column;
@@ -135,14 +234,26 @@ font-family: 'Raleway', sans-serif;
         align-items: center;
 
     }
+
+    .botonderes h3{
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    .botonderes p{
+        text-align: center;
+        padding: 0.5rem;
+        font-family: 'Playfair Display', serif;
+    }
     
     .ibotonderes button{
         background-color: #F2D22E;
-        color: #F5F4C8;
+        color: #F2D22E;
         padding: 9px 25px;
         border: none;
-        border-radius: 30px; 
+        border-radius: 15px; 
         cursor: pointer;
+        font-family: 'Playfair Display', serif;
     }
 
     footer{
@@ -173,8 +284,279 @@ font-family: 'Raleway', sans-serif;
     footer .copy{
         text-shadow: none;
         align-self: center;    
+        font-family: 'Playfair Display', serif;
     }
 }  
     
    
+@media screen and (min-width:500px){
+    p{
+        font-size: 1.5rem;
+    }
+    
+    .menu a{
+        font-size: 1.5rem;
+    }
 
+    .muestra, .coffe, .pasteleria{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .fa-brands{
+        color: #77ACF2;
+        font-size: 2rem;
+    }
+
+    .botonderes{
+        width: 70%;
+        height: 50%;
+        background: rgba(255, 255, 255, 0.549);
+        box-shadow: 0 2px 25px rgba(0, 0, 0, 0.129);
+        backdrop-filter: blur(6.6px);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+    }
+ 
+}
+
+@media screen and (min-width:700px){
+    .subir{
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: +2;
+    }
+    
+    .subir img{
+        width: 10vw;
+    }
+
+    .logo{
+        width: 100%;
+        background-image:url(./img/cafegrano.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .logo img{
+        width: 40%;
+        background: none;
+    }
+
+    .botonderes p{
+        padding: 1rem;
+    }
+    
+    .ibotonderes button{
+        border-radius: 20px; 
+    }
+
+    .muestra, .coffe, .pasteleria{
+        width: 100vw;
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .nosotros1 p{
+        padding: 2rem;
+    }
+
+    .te, .caf, .past{
+        width: 40%;
+    }
+
+    .muestra h4, .coffe h4, .pasteleria h4{
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .uno{
+        order: 1;
+    }
+
+    .dos{
+        order: 4;
+    } 
+
+    .tres{
+        order: 2;
+    }
+
+    
+    .cuatro{
+        order: 3;
+    }
+
+    .unoo{
+        order: 1;
+    }
+
+    .doss{
+        order: 4;
+    } 
+
+    .tress{
+        order: 2;
+    }
+
+    
+    .cuatroo{
+        order: 3;
+    }
+
+    .unooo{
+        order:1 ;
+    }
+
+    .dosss{
+        order: 2;
+    } 
+
+    .tresss{
+        order: 7;
+    }
+
+    
+    .cuatrooo{
+        order:3 ;
+    }
+
+    .cincooo{
+        order:4 ;
+    }
+
+    .seisss{
+        order: 8;
+    } 
+
+    .sieteee{
+        order: 6;
+    }
+
+    
+    .ochooo{
+        order:5 ;
+    }
+
+    .botonderes{
+        width: 60%;
+        height: 50%;
+        
+
+    }
+}
+
+@media screen and (min-width:940px){
+    
+    .botonderes h3{
+        text-align: center;
+    }
+
+    .botonderes p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 3rem;
+    }
+    
+    h4{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .logo img{
+        width: 20%;
+        background: none;
+    }
+
+    p{
+        font-size: 1.2rem;
+        
+    }
+    
+    h1{
+        font-size: 3rem;
+    }
+
+    h2, h3, h4{
+        font-size: 1.5rem;
+    }
+    
+    .nosotros1 p{
+        text-align: justify;
+        padding: 0 4rem;
+    }
+
+    .nosotros1 iframe{
+        width: 90vw;
+        height: 80vh;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .muestra h3{
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+
+    .muestra, .coffe, .pasteleria{
+        width: 100vw;
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+
+    .te, .caf, .past{
+        width: 20%;
+    }
+
+    .te h4, .caf h4, .past h4{
+        text-align: center;
+        padding: 2px;
+    }
+
+    .te p, .caf p{
+        text-align: center;
+        padding: 2vw;
+    }
+
+    .te img{
+        width: 80%;
+        border-radius: 15px;
+        margin: 0 auto;
+        padding-bottom: 3px;
+    }
+
+}
